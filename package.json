@@ -1,7 +1,10 @@
 {
-  "name": "vanilla-basic",
+  "name": "thania-cybersecurity-portfolio",
   "version": "1.0.0",
-  "scripts": { 
-    "start": "sirv ./src public --cors --single --no-clear --port 8000"
+  "scripts": {
+    "start": "sirv ./src --host 0.0.0.0 --port ${PORT:-8080} --single"
+  },
+  "dependencies": {
+    "sirv-cli": "^3.0.0"
   }
 }
