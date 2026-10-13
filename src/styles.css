@@ -298,4 +298,37 @@ footer p {
   margin-right: auto;
 }
 
+  
+/* Clean, centered homepage */
+.hero {
+  text-align: center;
+  padding: 35px 0 55px;
+}
+
+.hero .profile-card {
+  margin: 0 auto 30px;
+  padding: 25px;
+}
+
+.hero-intro {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-intro h1 {
+  font-size: clamp(28px, 4vw, 42px);
+  line-height: 1.2;
+  margin: 15px 0;
+}
+
+.hero-intro p {
+  max-width: 600px;
+  margin: 0 auto 15px;
+}
+
+.hero-intro .button {
+  margin-top: 20px;
+}
+
 }
