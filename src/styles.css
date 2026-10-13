@@ -211,4 +211,12 @@ footer p {
   .cards {
     grid-template-columns: 1fr;
   }
+  
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+}
+
 }
