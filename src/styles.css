@@ -220,6 +220,7 @@ footer p {
 }
 
   
+
 .profile-card {
   background: #14243A;
   border: 1px solid #30435A;
@@ -236,7 +237,7 @@ footer p {
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #FF2D95;
-  box-shadow: 0 0 22px rgba(255, 45, 149, 0.3);
+  box-shadow: 0 0 22px rgba(255,45,149,0.3);
 }
 
 .profile-card h3 {
@@ -248,14 +249,11 @@ footer p {
 .profile-title {
   color: #FF69C7;
   font-weight: bold;
-  margin: 0 0 8px;
 }
 
 .profile-credentials {
   color: #A9BED3;
   font-size: 14px;
-  margin: 0;
 }
-
 
 }
