@@ -256,4 +256,44 @@ footer p {
   font-size: 14px;
 }
 
+/* Professional Profile Card */
+.profile-card {
+  background: #14243A;
+  border: 1px solid #30435A;
+  border-radius: 18px;
+  padding: 30px;
+  max-width: 420px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.profile-card .profile-photo {
+  display: block;
+  width: 150px;
+  height: 150px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 3px solid #FF2D95;
+  margin: 0 auto 15px;
+}
+
+.profile-card h3 {
+  color: #F1F5F9;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.profile-card .profile-title {
+  color: #FF69C7;
+  font-weight: bold;
+}
+
+.profile-card .profile-credentials {
+  color: #A9BED3;
+  font-size: 14px;
+}
+
+  
 }
