@@ -260,4 +260,42 @@ footer p {
   .cards {
     grid-template-columns: 1fr;
   }
+  
+/* Homepage hero layout */
+.hero {
+  padding: 35px 0 55px;
+  text-align: center;
+}
+
+.hero .profile-card {
+  margin: 0 auto 35px;
+}
+
+.hero-intro {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.hero-intro .hero-eyebrow {
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.hero-intro h1 {
+  font-size: clamp(32px, 5vw, 52px);
+  margin: 18px 0;
+}
+
+.hero-intro h2 {
+  color: var(--pink-light);
+  font-size: clamp(18px, 3vw, 24px);
+}
+
+.hero-intro p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 }
